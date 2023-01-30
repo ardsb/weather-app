@@ -28,7 +28,7 @@ function App() {
       );
       getWeatherData(location.latitude, location.longitude,'');
     }
-  }, []);
+  }, [location.latitude, location.longitude]);
 
 
 
